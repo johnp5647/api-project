@@ -1,0 +1,387 @@
+body {
+    padding-top: 50px;
+    font-family: helvetica, ariel, sans-serif;
+}
+
+.life-input {
+    margin-left: 10%;
+}
+
+.main-output {
+    font-size: .2em;
+    text-align: justify;
+    color: rgb(255,255,255);
+    padding-left: 40px;
+    text-shadow: 2px 1px black;
+}
+
+.main-input {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main-background {
+    background: url(pictures/602999.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding-bottom: 70%;
+}
+
+.countrylist-form {
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+
+.input-btn {
+    text-align: center;
+}
+
+.label-select {
+    text-align: center;
+}
+
+.life-bd {
+    background: url(pictures/tribal_afghan.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+}
+
+.country-form {
+    width: 20%;
+    margin-left: 10%;
+}
+
+.gender-form {
+    width: 20%;
+    margin-left: 10%;
+}
+
+.home-2 {
+    background: url(pictures/earth.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.home-1 {
+    background: url(pictures/moon-earth.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.home-1a {
+    height: 50vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.h1-1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-3 {
+    background: url(pictures/green-valley.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.home-2a {
+    height: 50vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.h1-2 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-3a {
+    height: 50vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.h1-3 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-4 {
+    background: url(pictures/beautiful-green-mountain-valley.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.home-4a {
+    height: 50vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.h1-4 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-5 {
+    background: url(pictures/battle-grozny.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.home-5a {
+    height: 50vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.h1-5 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-4annex {
+    background: url(pictures/NYC-Skyline.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.home-6 {
+    background: url(pictures/cassini-saturn.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 120vh;
+}
+
+.life-output {
+    color: white;
+    margin-left: 5%;
+}
+
+.btn-sm {
+    margin-left: 2%;
+}
+
+.asia-1 {
+    background: url(region-pics/Jame-Masjid.jpeg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+}
+
+.asia-2 {
+    background: url(region-pics/Orange.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+}
+
+.asia-3 {
+    background: url(region-pics/Tokyo.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 120vh;
+}
+
+.asia-4 {
+    background: url(region-pics/man-smoking.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.banner {
+    height: 50vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.h1-reigion {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.p-region {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+.banner-start {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.africa-1 {
+    background: url(region-pics/bantu-woman.jpeg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.africa-2 {
+    background: url(region-pics/sa-vineyard.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.africa-3 {
+    background: url(region-pics/johannesburg1.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.africa-4 {
+    background: url(region-pics/Village.jpeg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.europe-1 {
+    background: url(region-pics/prague-1.jpeg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.europe-2 {
+    background: url(pictures/paris.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.europe-3 {
+    background: url(region-pics/polish-women.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.europe-4 {
+    background: url(region-pics/European-Castle.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.north-america-1 {
+    background: url(region-pics/farm.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.north-america-2 {
+    background: url(region-pics/Mexico_City_Zocalo_Cathedral.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.north-america-3 {
+    background: url(region-pics/canada.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.north-america-4 {
+    background: url(region-pics/nyc.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.south-america-1 {
+    background: url(region-pics/chile-wallpapers_01044048_135.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.south-america-2 {
+    background: url(region-pics/1280px-Plaza_de_San_Francisco_en_Centro_hist%C3%B3rico_de_Quito,_Ecuador.JPG) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 120vh;
+}
+
+.south-america-3 {
+    background: url(region-pics/ydu.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}
+
+.south-america-4 {
+    background: url(region-pics/South-America-wallpapers-12.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 120vh;
+}

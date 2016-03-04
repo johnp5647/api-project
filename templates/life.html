@@ -1,0 +1,43 @@
+<div class="row">
+    <div class='col-xs-12 life-bd'>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="form-group country-form">
+                    <label for='countryList'></label>
+                    <select name='countryList' class="form-control" ng-model='menu.countryList' ng-options='countries for countries in countriesList.countries'>
+
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="form-group gender-form">
+                    <label for='gender'></label>
+                    <select name='gender' class="form-control" ng-model='gen.gender'>
+                        <option value='male'>male</option>
+                        <option value='female'>female</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <input ng-model='age' placeholder="age: 25y4m" class='life-input'>
+                <button ng-click='search()' class='btn btn-sm'>Submit</button>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-xs-12 life-output">
+                <h1 ng-hide='searchResults.remaining_life_expectancy===undefined' class='life-h1'>Remaining Life Expectancy: {{searchResults.remaining_life_expectancy.toFixed(1)}} years</h1>
+            </div>
+        </div>
+
+    </div>
+</div>

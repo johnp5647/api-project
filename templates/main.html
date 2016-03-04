@@ -1,0 +1,34 @@
+<div class="row">
+    <div class="col-xs-12 main-background">
+
+
+        <div class="row">
+            <div class="col-xs-12 input-btn">
+                <div class="form-group countrylist-form">
+                    <label class='label-select' for='countriesList'></label>
+                    <select name='countriesList' class="form-control" ng-model='input.countriesList' ng-options='countries.name for countries in countryList'>
+
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class="col-xs-12 main-button">
+                <button ng-click='search()' class="btn btn-sm">Submit</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 main-output">
+                <h2>{{searchResults[0].name}}</h3>
+        <h4 ng-hide='searchResults[0].capital===undefined'>Capital: {{searchResults[0].capital}}</h2>
+                <h4 ng-repeat="things in searchResults[0].altSpellings">Alternative Spelling: {{things}}</h2>
+        <h4 ng-hide='searchResults[0].subregion===undefined'>Region: {{searchResults[0].subregion}}</h2>
+        <h4 ng-hide='searchResults[0].population===undefined'>Population: {{searchResults[0].population | number}}</h2>
+        <h4 ng-hide='searchResults[0].nativeName===undefined'>Native Name: {{searchResults[0].nativeName}}</h2>
+        <h4 ng-repeat='all in searchResults[0].borders'>Borders: {{all}}</h2>
+    </div>
+</div>
+
+ </div>
+</div>
